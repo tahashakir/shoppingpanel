@@ -1,10 +1,14 @@
 <?php
 
+// define("server","localhost",true);
+// 	define("user","root",true);
+// 	define("password","",true);
+// 	define("database","shopping",true);
 
-define("server","sql10.freesqldatabase.com",true);
-	define("user","sql10338425",true);
-	define("password","rAFRFImUYc",true);
-	define("database","sql10338425",true);
+define("server","remotemysql.com",true);
+	define("user","1PUeGUa8tg",true);
+	define("password","MjjEnIdwZa",true);
+	define("database","1PUeGUa8tg",true);
 	function iud($query)
 	{
 		$cid=mysqli_connect(server,user,password,database) or die("connection error");
